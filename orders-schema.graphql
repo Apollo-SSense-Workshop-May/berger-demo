@@ -23,6 +23,7 @@ type Order @key(fields: "id") {
   """
   buyer: User! @requiresScopes(scopes: [["order:buyer"]])
 
+  """The Total amount plus tax"""
   totalOrder: Float
   """
   A list of all the items they purchased. This is the Variants, not the Products so we know exactly which
