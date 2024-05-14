@@ -41,7 +41,7 @@ authentication:
 authorization:
   require_authentication: false
   preview_directives: 
-    enabled: true
+    enabled: false
 
 limits:
   max_depth: 50
